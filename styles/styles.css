@@ -421,7 +421,7 @@ body {
   margin: 0%;
   width: 160px;
   height: 90px;
-  padding-top: 34px;
+  padding-top: 60px;
 }
 .sorting-type-section {
   margin: 0%;
@@ -446,6 +446,11 @@ body {
   width: 48px;
   height: 48px;
   padding-top: 44px;
+}
+.button-apply {
+  color: #ffffff;
+  background: #83b3d3;
+  border-radius: 4px;
 }
 .hotel-card {
   color: #000000;
