@@ -149,10 +149,11 @@ body {
   margin-bottom: 25px;
 }
 .advantages-discription {
-  margin: 0%;
+  margin: 26px 75px;
   margin-top: 26px;
   padding-bottom: 77px;
   text-align: center;
+  width: 250px;
 }
 .advantages-city {
   display: flex;
@@ -225,11 +226,12 @@ body {
   text-transform: uppercase;
   padding-top: 91px;
   margin: 0%;
-  margin-bottom: 15px;
+  margin-bottom: 28px;
 }
 .hotel-serch-form {
   margin: 0% auto;
-  margin-bottom: 91px;
+  margin-bottom: 73px;
+  width: 480px;
 }
 .button {
   font-style: normal;
@@ -253,6 +255,19 @@ body {
   width: 720px;
   height: 411px;
 }
+.button-serch {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #756257;
+  padding: 13px 120px 17px;
+  border-radius: 10px;
+  border: none;
+}
 .newsletter-title {
   font-style: normal;
   font-weight: 700;
@@ -263,10 +278,15 @@ body {
   padding-top: 94px;
 }
 .newsletter-subscribtion {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
   margin: 0% auto;
   margin-top: 15px;
   margin-bottom: 26px;
-  width: 720px;
+  width: 680px;
   height: 72px;
 }
 .field {
@@ -277,6 +297,9 @@ body {
   left: 840px;
   top: 3041px;
   background-color: #f2f2f2;
+  width: 600px;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
 }
 .button-newsletter-button {
   font-style: normal;
@@ -287,6 +310,9 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #83b3d3;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  padding: 13px 20px;
 }
 .contacts-phone {
   font-style: normal;
@@ -442,8 +468,6 @@ body {
   color: #000000;
   background-color: #e5e5e5;
   margin-right: 81px;
-  width: 290px;
-  height: 48px;
   padding-top: 44px;
 }
 .sorting-container {
@@ -460,6 +484,15 @@ body {
   color: #ffffff;
   background: #83b3d3;
   border-radius: 4px;
+  padding: 10px 24px;
+  border: none;
+}
+.button-reset {
+  border: none;
+  padding: 20px 10px;
+  color: #ffffff;
+  background-color: transparent;
+  padding-left: 27px;
 }
 .hotel-card {
   color: #000000;
@@ -516,16 +549,23 @@ body {
 }
 .button-more {
   grid-column: 4/5;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
 }
 .button-favorite {
   color: #ffffff;
   background-color: #83b3d3;
   grid-column: 6/7;
+  border: none;
+  border-radius: 4px;
 }
 .button-rating {
   color: #000000;
-  background-color: #eadcdc;
+  background-color: #f2f2f2;
   grid-column: 8/9;
+  border: none;
+  border-radius: 4px;
 }
 .pagination-show-more {
   background-color: #e5e5e5;
@@ -546,8 +586,9 @@ body {
   line-height: 26px;
   text-align: center;
   text-transform: uppercase;
-  width: 625px;
-  height: 55px;
+  padding: 15px 250px;
+  border: none;
+  border-radius: 4px;
 }
 .pagination {
   color: #000000;
@@ -599,16 +640,22 @@ body {
   padding: 15px 20px;
 }
 .sorting-number {
-  display: flex;
   justify-content: space-between;
-  width: 385px;
   margin: 0%;
   margin-left: auto;
 }
 .select-control {
   margin: 0%;
-  width: 160px;
-  height: 48px;
+  padding: 13px 127px 13px 19px;
+  border: none;
+  border-radius: 4px;
+}
+.select-control-amount {
+  margin: 0%;
+  padding: 13px 133px 13px 17px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 51px;
 }
 .newsletter-title-inner {
   font-style: normal;
@@ -636,6 +683,7 @@ body {
   margin: 0%;
   padding: 0%;
   padding-bottom: 138px;
+  display: flex;
 }
 .footer-container {
   display: flex;
