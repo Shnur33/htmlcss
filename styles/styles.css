@@ -80,6 +80,13 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
+.navigation-link:hover {
+  fill: #da580e;
+}
+.navigation-link:focus {
+  outline: 3px solid #83b3d3;
+  border-radius: 10px;
+}
 .navigation-icon {
   position: absolute;
   left: 0%;
@@ -95,14 +102,23 @@ body {
   top: -20.56%;
   bottom: 0%;
   margin: auto;
+  margin-right: 30px;
 }
 .button-in {
-  padding: 9px 48px;
+  padding: 9px 35px;
   border: none;
   border-radius: 4px;
   color: #ffffff;
   background-color: #756257;
   margin-right: 71px;
+}
+.button-in:hover {
+  background-color: #615048;
+}
+.button-in:focus {
+  background: #615048;
+  outline: 3px solid #83b3d3;
+  border-radius: 10px;
 }
 .main-container {
   flex-grow: 1;
@@ -297,6 +313,14 @@ body {
   border-radius: 10px;
   border: none;
 }
+.button-serch:hover {
+  background-color: #615048;
+}
+.button-serch:focus {
+  background: #615048;
+  outline: 3px solid #83b3d3;
+  border-radius: 10px;
+}
 .newsletter-title {
   font-style: normal;
   font-weight: 700;
@@ -343,6 +367,13 @@ body {
   border-radius: 0px 10px 10px 0px;
   padding: 13px 20px;
 }
+.button-newsletter-button:hover {
+  background-color: #68a2ca;
+}
+.button-newsletter-button:focus {
+  background-color: #68a2ca;
+  outline: 3px solid #756257;
+}
 .contacts-phone {
   font-style: normal;
   font-weight: 400;
@@ -386,6 +417,13 @@ body {
   margin-top: 42px;
   margin-bottom: 44px;
 }
+.html-academy-logo:hover {
+  fill: #756257;
+}
+.html-academy-logo:focus {
+  outline: 3px solid #83b3d3;
+  border-radius: 10px;
+}
 .social-link {
   display: block;
   height: 45px;
@@ -403,6 +441,15 @@ body {
 }
 .social-link-yt {
   background-image: url(../images/social-youtube.svg);
+}
+.social-link:hover {
+  fill: #68a2ca;
+}
+.social-link:focus {
+  outline: 3px solid #83b3d3;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
 }
 .main-inner {
   color: #ffffff;
@@ -542,6 +589,13 @@ body {
   padding: 10px 24px;
   border: none;
 }
+.button-apply:hover {
+  background-color: #68a2ca;
+}
+.button-apply:focus {
+  background-color: #68a2ca;
+  outline: 3px solid #ffffff;
+}
 .button-reset {
   border: none;
   padding: 20px 10px;
@@ -644,6 +698,14 @@ body {
   padding: 15px 250px;
   border: none;
   border-radius: 4px;
+}
+.button-pagination-show-more:hover {
+  background-color: #68a2ca;
+}
+.button-pagination-show-more:focus {
+  background-color: #68a2ca;
+  outline: 3px solid #756257;
+  border-radius: 10px;
 }
 .pagination {
   color: #000000;
