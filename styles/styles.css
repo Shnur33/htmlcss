@@ -144,6 +144,11 @@ body {
 .popover-content {
   height: 100%;
 }
+.popover-triangle {
+  position: absolute;
+  top: -9px;
+  right: 199px;
+}
 .popover-item {
   display: grid;
   grid-template-columns: 25px 48px 17px 244px 41px 25px;
@@ -263,6 +268,7 @@ body {
   margin: 0% auto;
 }
 .main-logo {
+  position: relative;
   margin: 0%;
   padding: 0%;
   background-image: url("../images/index-background.jpg");
@@ -275,6 +281,10 @@ body {
   margin: 0% auto;
   padding-top: 51px;
   padding-bottom: 82px;
+}
+.sedona-vector {
+  position: absolute;
+  bottom: 0;
 }
 .advantages-list {
   text-align: center;
@@ -312,6 +322,15 @@ body {
   width: 400px;
   height: 384px;
 }
+.advantages-place {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+.advantages-road {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+.advantages-tripper {
+  background-color: rgba(131, 179, 211, 0.12);
+}
 .advantages-title {
   font-weight: 700;
   font-size: 24px;
@@ -345,6 +364,12 @@ body {
   justify-content: space-between;
   margin: 0%;
   list-style-type: none;
+}
+.info-rent {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+.info-gift {
+  background-color: rgba(131, 179, 211, 0.12);
 }
 .discription-logo {
   margin-top: 90px;
@@ -384,7 +409,7 @@ body {
   margin: 0%;
   padding: 0%;
   color: #000000;
-  background-color: rgb(227, 223, 223);
+  background-color: #ffffff;
 }
 .hotel-serch {
   color: #000000;
@@ -672,7 +697,7 @@ body {
   right: 70px;
   top: 54px;
   background: #f2f2f2;
-  background-image: url(../images/Vector.svg);
+  background-image: url(../images/modal-vector.svg);
   background-repeat: no-repeat;
   background-position: center;
   border: none;
@@ -756,6 +781,36 @@ body {
   padding: 0%;
   margin: 0%;
   border-radius: 50%;
+  background-image: url(../images/info\ 2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.modal-popup {
+  position: absolute;
+  top: 44px;
+  left: -110px;
+  text-align: start;
+  z-index: 1;
+  width: 256px;
+  height: 143px;
+  color: #ffffff;
+  background: #333333;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.modal-triangle {
+  position: absolute;
+  top: -8px;
+  right: 124px;
+}
+.modal-popup-content {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0%;
+  padding: 18px;
 }
 .modal-humans-old {
   grid-column: 2/3;
@@ -1101,6 +1156,15 @@ body {
   grid-column: 8/9;
 }
 .button-apply {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
   color: #ffffff;
   background: #83b3d3;
   border-radius: 4px;
@@ -1115,6 +1179,12 @@ body {
   outline: 3px solid #ffffff;
 }
 .button-reset {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
   border: none;
   margin: 20px 10px;
   color: #ffffff;
@@ -1207,7 +1277,6 @@ body {
   background-color: #e5e5e5;
   text-decoration: none;
   grid-column: 2/3;
-  grid-row: ;
 }
 .hotel-card-title {
   font-family: "PT Sans";
@@ -1293,6 +1362,13 @@ body {
   outline: 3px solid #756257;
 }
 .button-rating {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
   color: #000000;
   background-color: #f2f2f2;
   grid-column: 8/9;
