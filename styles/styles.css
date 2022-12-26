@@ -87,7 +87,7 @@ body {
 .navigation-link:focus {
   outline: 3px solid #83b3d3;
   border-radius: 10px;
-  padding: 0px 5px;
+  padding: 6px 12px;
 }
 .navigation-link-current::before {
   position: absolute;
